@@ -6,11 +6,11 @@ edition = "2021"
 
 [dependencies]
 # Substrate dependencies
-sc-network = { git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sc-network-gossip = { git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sc-utils = { git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-core = { git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
+sc-network = { git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sc-network-gossip = { git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sc-utils = { git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-core = { git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-runtime = { git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
 
 futures = "0.3.21"
 parity-scale-codec = { version = "3.1.2", features = ["derive"] }

@@ -23,16 +23,16 @@ jsonrpc-pubsub = "18.0.0"
 log = "0.4.16"
 parity-scale-codec = { version = "3.1.2", default-features = false }
 parking_lot = "0.12.0"
-sc-client-api = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
+sc-client-api = { version = "4.0.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
 sc-consensus-subspace = { version = "0.1.0", path = "../sc-consensus-subspace" }
-sc-rpc-api = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sc-utils = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-api = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
+sc-rpc-api = { version = "0.10.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sc-utils = { version = "4.0.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-api = { version = "4.0.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
 sp-consensus-subspace = { version = "0.1.0", path = "../sp-consensus-subspace" }
-sp-consensus-slots = { version = "0.10.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-core = { version = "6.0.0", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
-sp-runtime = { version = "6.0.0", git = "https://github.com/paritytech/substrate", rev = "c4f3d028621edb293d2c423516221aa396f76a2d" }
+sp-consensus-slots = { version = "0.10.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-core = { version = "6.0.0", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
+sp-runtime = { version = "6.0.0", git = "https://github.com/koute/substrate", rev = "1a8343ff5a7d2060c8a03ecd04768b225abe0562" }
 subspace-archiving = { version = "0.1.0", path = "../subspace-archiving" }
 subspace-core-primitives = { version = "0.1.0", path = "../subspace-core-primitives" }
 subspace-rpc-primitives = { version = "0.1.0", path = "../subspace-rpc-primitives" }

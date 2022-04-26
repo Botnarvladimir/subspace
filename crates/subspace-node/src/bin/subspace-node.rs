@@ -210,16 +210,8 @@ fn main() -> std::result::Result<(), Error> {
 
                         cmd.run(config, client, db, storage)
                     }
-                    BenchmarkCmd::Overhead(_cmd) => {
-                        todo!("Not implemented")
-                        // let ext_builder = BenchmarkExtrinsicBuilder::new(client.clone());
-                        //
-                        // cmd.run(
-                        //     config,
-                        //     client,
-                        //     command_helper::inherent_benchmark_data()?,
-                        //     Arc::new(ext_builder),
-                        // )
+                    _ => {
+                        unimplemented!()
                     }
                 }
             })?;
