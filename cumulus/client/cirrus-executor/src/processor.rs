@@ -156,7 +156,7 @@ where
 		match import_result {
 			ImportResult::Imported(..) => {},
 			ImportResult::AlreadyInChain => {
-				panic!("Block already in chain {}: {:?}", header_number, header_hash);
+				// panic!("Block already in chain {}: {:?}", header_number, header_hash);
 			},
 			ImportResult::KnownBad => {
 				panic!("Bad block {}: {:?}", header_number, header_hash);

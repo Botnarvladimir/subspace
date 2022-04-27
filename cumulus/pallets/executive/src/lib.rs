@@ -329,6 +329,8 @@ impl<
 			}
 		});
 
+		Pallet::<ExecutiveConfig>::push_root(Self::storage_root());
+
 		// post-extrinsics book-keeping
 		<frame_system::Pallet<System>>::note_finished_extrinsics();
 
